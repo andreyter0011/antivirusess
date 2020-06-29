@@ -1,0 +1,259 @@
+
+.buttonup{
+width:88px;/*ширина элемента*/
+height:118px;/*высота элемента*/
+position: fixed; /* Абсолютное позиционирование */
+    bottom: 0px; /* Положение от нижнего края */
+    right: 0px; /* Положение от правого края */
+    line-height: 1px;/*Межстрочный интервал*/
+padding-left: 30px;/*начение поля от левого края содержимого элемента*/
+}
+
+.karta{	
+	text-align: center;/*Выравнивание по центру*/
+}
+*{
+	margin: 0;/*Отступ*/
+	padding: 0;/*отступы от внешней границы элемента до его содержания*/
+}
+a{
+	text-decoration: none;/*Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.*/
+}
+
+h2{
+	margin-top: 10px/*Величина отступа от верхнего элемента*/;
+}
+body{
+	font-family: 'Open Sans', sans-serif;/*Устанавливает шрифт, которое будет использоваться для оформления текста содержимого.*/
+		background-color: #fff;
+	}
+.headl h1{
+text-align: center;
+margin-top: 5px;
+}
+/*верхняя часть сайта*/
+header{
+	box-shadow: 0 0 20px rgba(0,0,0,1);/*Тень*/
+	background: linear-gradient(to top, #778899,#FFFFFF);/*Градиент цветов(направления,цвета)*/
+	width: 100%;/*ширина*/
+	display: flex;/*эффективное заполнение доступного пространства*/
+}
+.logo{
+	color: 	#000; 
+	text-transform: uppercase; /* приведение к верхнему регистру */ 
+	font-weight: 800; /* жирное начертание шрифта */
+  	font-size: 24px; /*размер шрифта элемента*/
+  	cursor: pointer; /* вид курсора при наведение */  		
+	margin-top: 56px;
+	margin-left: 12%;
+	margin: 20PX auto;
+	}
+nav
+{
+	width:1650px;
+	margin: 0PX auto;
+}
+nav:before
+{
+	display: block;
+	height: 50px;
+	width: 100%;
+	position: absolute;/*Позиционирование*/
+	left: 0;
+	z-index: -1;/*определяет положение элемента и нижестоящих элементов по оси z*/
+
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;/*убирает маркера*/
+	height: 67px;
+}
+ul li
+{
+	float: left;/*Выравнивание элемента*/
+}
+ul li a
+{
+	color: #000;
+	display: block;
+	height: 50px;
+	padding: 0 30px;
+    margin-left: : 100px;
+	line-height: 50px;
+}
+ul li a:hover 
+{
+	background: #3666;
+}
+ul li a:active
+{
+	box-shadow: 0 0 20px rgba(0,0,0,2);/*Тень*/
+}
+.topnav a{
+	color: 	#000;
+	text-align: center; /* выравнивание текста*/
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;/*насыщенность шрифта*/
+}
+
+.topnav a:hover{
+}
+.topnav .icon{
+	display: none;
+}
+/*подвал сайта*/
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+   background-color: #344755;
+}
+.footer{
+	margin-top: 
+}
+ .footer p{
+	color: #c1b6b6;
+	margin-top: 30px;
+	margin-left: 40%;
+}
+/*оформленииеп текста в статьях*/
+dt{
+	font-family: Verdana, Arial, Helvetica, sans-serif;/*шрифт текста*/
+}
+.soderzhaniye{
+	padding: 10px; 
+	margin-right: 10%; 
+	margin-left: 10%; 
+	margin-top: 30px;
+	color: blue;
+	box-shadow: 1px 2px 10px rgba(0,0,0,2);
+	background-color: #C0C0C0;
+}
+div .content{
+	border: 10px;
+} 
+.content{
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 6%;
+	margin-right: 6%;
+	box-shadow: 1px 2px 10px rgba(0,0,0,2);
+	background-color: #C0C0C0;
+	 padding-bottom: 90px;
+}
+.content p{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#submit {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 18px;
+padding: 0px;
+text-decoration: none;
+box-shadow: 0px 1px 3px #666666;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1515), to(#8b0d0d));
+background: -moz-linear-gradient(top, #ce1515, #8b0d0d);
+}
+ 
+#submit:hover {
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b0d0d), to(#ce1515));
+ background: -moz-linear-gradient(top, #8b0d0d, #ce1515)
+}
+#respond input[type=text], textarea {
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+#respond input[type=text]:focus, textarea:focus {
+ box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ margin: 5px 1px 3px 0px;
+ border: 1px solid rgba(81, 203, 238, 1);
+}
+table{
+	margin-top: 30px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+ content a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+ content a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+ content a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+content a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+@media screen and (max-width: 1527px){/*размер экрана*/
+	nav{
+		margin-left: 18%;/*25*/
+	}
+}
+@media screen and (max-width: 1287px){ /*1103px*/
+	nav{
+		margin-left: 3%;/*15*/
+	}
+}
+@media screen and (max-width: 1061px){
+	.topnav a{
+		display: none; /* скрытие ссылок из меню*/
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block; /* задаёт подобие блока */
+		color: #000000;
+		font-size: 25px;
+	}
+	.topnav.responsive{
+		position: relative; /*пазиция относительно исходного места*/
+		top: 50px;
+		left: -122px;
+	}
+
+	header .topnav.responsive{
+		height: 340px;
+	}
+
+	.topnav.responsive a.icon{
+		position: absolute; 
+		top: -50px; 
+		left: 111%; 
+	}
+
+	.topnav.responsive a{
+		float: none;
+		display: block; 
+		text-align: left;
+	}	
+
+}
